@@ -18,9 +18,7 @@ export default function Destinations() {
                     <div className="card-container">
 
                         <Cards />
-                        {/* <Cards />
-                    <Cards />
-                    <Cards /> */}
+
                     </div>
                 </div>
             </div>

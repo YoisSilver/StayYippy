@@ -1,13 +1,12 @@
 .divider-container {
   margin: 5rem 0;
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
   gap: 5rem;
   .whitelinesmall::before {
     display: flex;
     content: "";
     position: relative;
-
     height: 0.12rem;
     background: var(--cherry-red);
     width: 20rem;
@@ -18,5 +17,74 @@
   }
   .left-line {
     margin: auto auto auto 0;
+  }
+  .list-container {
+    margin: auto auto auto 3rem;
+    .why-us {
+      background-color: var(--cherry-red);
+      border-radius: 5rem;
+      color: white;
+      border-radius: 2rem;
+      padding: 0.6rem 1.2rem;
+      border: solid 1px transparent;
+      background-image: linear-gradient(150deg, var(--red), var(--pink)),
+        linear-gradient(140deg, var(--red), var(--pink));
+      background-origin: border-box;
+      background-clip: content-box, border-box;
+      // box-shadow: 2px 1000px 1px var(--background-dark) inset;
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
+      &:hover {
+        //   filter: brightness(0.95);
+        transform: scale(0.97);
+        transition: 0.5s ease-in-out;
+      }
+      &:hover:after {
+        width: 0;
+      }
+    }
+    .ul-holder {
+      display: flex;
+      flex-direction: column;
+      gap: 4rem;
+      // background: rgb(255, 163, 203);
+      // background: linear-gradient(
+      //   163deg,
+      //   rgba(255, 163, 203, 1) 0%,
+      //   rgba(169, 182, 227, 1) 10%,
+      //   rgba(148, 187, 233, 1) 100%
+      // );
+      // border-radius: 2rem;
+
+      .last-oneh3 {
+        color: var(--accent-color1);
+      }
+
+      &:hover {
+        //   filter: brightness(0.95);
+        // transform: scale(0.95);
+        // transition: 0.5s ease-in-out;
+        // padding: 0 0 3rem 0;
+      }
+    }
+
+    .img-container {
+      display: flex;
+      margin: 4rem 1rem 4rem 4rem;
+      padding: 0 0 0 2rem;
+      justify-content: space-between;
+      align-items: center;
+      background-color: var(--mellow);
+      border: solid 1.4px var(--black);
+      Image {
+      }
+    }
+
+    .header {
+      font-weight: 600;
+    }
+    li {
+      margin: 1.5rem;
+    }
   }
 }

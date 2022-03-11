@@ -12,7 +12,7 @@ export default function Searchbar() {
     return (
         <Fragment>
             {/* CHANGE THIS FONT TEXT */}
-            <h3>Find your next dream destination now:</h3>
+            <h3 className="h3-title-dream">Find your next dream destination now:</h3>
             <div className="searchbar-container" >
                 <div className="container">
                     <FormGroup className='search-cnt' color="secondary">
