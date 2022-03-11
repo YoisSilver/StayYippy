@@ -1,1 +1,40 @@
-// STYLES
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --orange: #ff8139;
+  --pink: #ff3998;
+  --green: #39ffa0;
+  --red: #ff3939;
+  --cherry-red: #ff2727;
+  --purple: #c37aff;
+  --light-green: #edfff6;
+  --light-orange: #fff0e8;
+  --accent-color1: #ffffff;
+  --accent-color2: #555555;
+  --accent-color3: #cccccc;
+  --card-color: #000000;
+  --background-dark: #111111;
+
+  --black: #222222;
+  --navbar-bg: #ffffff;
+  --font-family: "Inter", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  background-color: var(--background);
+  width: 0.2rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--red);
+}

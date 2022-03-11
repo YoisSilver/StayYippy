@@ -1,0 +1,23 @@
+h3 {
+  color: var(--black);
+  margin: 8rem 3rem 0rem 5rem;
+}
+
+.searchbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2.5rem 0rem 0rem 0rem;
+  // margin-bottom: ;
+
+  .search-cnt {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 1rem;
+
+    #outlined-search {
+      background-color: rgb(255, 255, 255);
+      border: solid 1px rgba(216, 216, 216, 0.904);
+    }
+  }
+}

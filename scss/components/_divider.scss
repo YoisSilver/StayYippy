@@ -1,0 +1,22 @@
+.divider-container {
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  .whitelinesmall::before {
+    display: flex;
+    content: "";
+    position: relative;
+
+    height: 0.12rem;
+    background: var(--cherry-red);
+    width: 20rem;
+    align-items: center;
+  }
+  .right-line {
+    margin: auto 0 auto auto;
+  }
+  .left-line {
+    margin: auto auto auto 0;
+  }
+}

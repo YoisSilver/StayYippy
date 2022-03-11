@@ -1,0 +1,75 @@
+.desti-container {
+  margin: 7rem 0 5rem 0;
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+    .text-img {
+      height: 15px;
+      width: 15px;
+    }
+  }
+  .container {
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
+    // gap: 1rem;
+    .big-card {
+      max-width: 700px;
+      background-color: rgb(240, 138, 138);
+      display: flex;
+      // height: 60rem;
+      flex-direction: column;
+      justify-content: center;
+      margin: 40px;
+      gap: 1rem;
+      padding: 4rem 2.5rem;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      &:hover {
+        transform: scale(0.98);
+        transition: 0.2s ease-in-out;
+      }
+      .image {
+        Image {
+          border-radius: 1rem;
+          height: 17rem;
+          position: relative;
+          object-fit: cover;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+          border: solid 4px black;
+        }
+      }
+      .title {
+        display: flex;
+        color: var(--accent-color1);
+        font-style: bold;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+      .location {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--accent-color1);
+        line-height: 1.5rem;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+      }
+    }
+  }
+}
