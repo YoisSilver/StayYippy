@@ -44,10 +44,9 @@ export default function Cards() {
                     ssr={true} // means to render carousel on server-side.
                     infinite={true}
                     autoPlay={true}
-                    autoPlaySpeed={4000}
-                    transitionDuration={3000}
-                // arrows={false} renderButtonGroupOutside={true} customButtonGroup={<ButtonGroup />}
-
+                    autoPlaySpeed={2000}
+                    transitionDuration={30000}
+                // arrows={false} renderButtonGroupOutside={true}
                 >
                     <div className="big-card">
                         <Image src={img1} alt='img1' className='image'></Image>
