@@ -48,6 +48,8 @@ export default function Searchbar() {
                     </FormGroup >
                 </div>
             </div >
+
+            <div className="whitelinesmall-end" />
         </Fragment>
     )
 }

@@ -34,7 +34,7 @@ export default function Divider() {
                     <div className="img-container">
 
                         <div className='ul-holder'>
-                            <h3 className='why-us' onClick={() => setShow(!show)}>Still wondering why you should choose us?</h3>
+                            <h3 className='why-us'>Still wonder why you should choose us?</h3>
                             <h3 className='second-lh3'>you can check out our F.A.Q here <LibraryBooksIcon /></h3>
                             <h4 className='last-oneh3'>and here is the white paper<HistoryEduIcon /></h4>
                         </div>

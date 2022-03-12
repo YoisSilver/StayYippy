@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Destinations from '../components/Destinations'
 import Divider from '../components/Divider'
 import Navbar from '../components/Navbar'
+import Randomshow from '../components/Randomshow'
 import Searchbar from '../components/Searchbar'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Searchbar />
       <Destinations />
       <Divider />
+      <Randomshow />
     </div>
   )
 }

@@ -1,0 +1,99 @@
+.rando-container {
+  margin: 2rem 9rem 2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(240, 138, 138);
+  background: linear-gradient(
+    108deg,
+    rgba(240, 138, 138, 1) 92%,
+    rgba(238, 36, 154, 0.5441526952577906) 100%
+  );
+  padding: 3rem 5rem 3rem 1rem;
+  border-radius: 0.5rem;
+  .fbttn {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    align-items: center;
+    background-color: var(--cherry-red);
+    border-radius: 5rem;
+    color: white;
+    border-radius: 2rem;
+    padding: 0.6rem 1.2rem;
+    border: solid 1px transparent;
+    background-image: linear-gradient(150deg, purple, #ee249a),
+      linear-gradient(140deg, purple, rgb(238, 36, 154));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    // box-shadow: 2px 1000px 1px var(--background-dark) inset;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.05);
+      transition: 0.5s ease-in-out;
+    }
+  }
+  // background: url(/ygpeople.svg);
+  .img1 {
+    position: relative;
+    max-width: 15px;
+    border-radius: 2rem;
+  }
+  .instructionhold {
+    h1,
+    li {
+      margin: 5rem 0 5rem 0;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    h1 {
+      color: var(--accent-color1);
+      font-family: "inter", sans-serif;
+    }
+    .here {
+      color: white;
+      font-weight: 300;
+    }
+    .last {
+      color: purple;
+      &:hover {
+        transform: rotate(3600deg);
+        transition: 5s ease-in-out;
+      }
+    }
+    .roll-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.whynt:hover {
+  transform: scale(0.98);
+  transition: 0.2s ease-in-out;
+}
+
+.whitelinesmall::before {
+  display: flex;
+  content: "";
+  position: relative;
+  height: 0.12rem;
+  background: var(--cherry-red);
+  width: 20rem;
+  align-items: center;
+}
+
+.whitelinesmall-end::before {
+  display: flex;
+  content: "";
+  position: relative;
+  height: 0.12rem;
+  background: var(--cherry-red);
+  width: 20rem;
+  align-items: center;
+  margin: 6rem auto 6rem auto;
+}
