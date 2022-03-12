@@ -13,10 +13,15 @@
     align-items: center;
   }
   .right-line {
-    margin: auto 0 auto auto;
+    // margin: auto 0 auto auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
   .left-line {
-    margin: auto auto auto 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
   }
   .list-container {
     margin: auto auto auto 3rem;
@@ -36,7 +41,7 @@
       cursor: pointer;
       &:hover {
         //   filter: brightness(0.95);
-        transform: scale(0.97);
+        transform: scale(1.05);
         transition: 0.5s ease-in-out;
       }
       &:hover:after {
@@ -47,6 +52,8 @@
       display: flex;
       flex-direction: column;
       gap: 4rem;
+      justify-content: center;
+
       // background: rgb(255, 163, 203);
       // background: linear-gradient(
       //   163deg,
@@ -58,13 +65,20 @@
 
       .last-oneh3 {
         color: var(--accent-color1);
+
+        &:hover {
+          transform: scale(1.03);
+          transition: 0.1s ease-in-out;
+          cursor: pointer;
+        }
       }
 
-      &:hover {
-        //   filter: brightness(0.95);
-        // transform: scale(0.95);
-        // transition: 0.5s ease-in-out;
-        // padding: 0 0 3rem 0;
+      .second-lh3 {
+        &:hover {
+          transform: scale(1.03);
+          transition: 0.1s ease-in-out;
+          cursor: pointer;
+        }
       }
     }
 
@@ -74,9 +88,39 @@
       padding: 0 0 0 2rem;
       justify-content: space-between;
       align-items: center;
-      background-color: var(--mellow);
+      background-color: #f5aaaa;
       border: solid 1.4px var(--black);
       Image {
+      }
+      .middle-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1,
+        h3 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          // margin: 0 auto 3.5rem 2rem;
+        }
+        .info-text {
+          align-items: center;
+          justify-content: center;
+          .header-2 {
+            color: var(--accent-color1);
+          }
+          .header {
+            color: var(--accent-color1);
+            font-family: "inter", sans-serif;
+          }
+          .title {
+            margin: 2rem auto 2rem auto;
+            font-family: "inter", sans-serif;
+          }
+          li {
+            list-style-type: none;
+          }
+        }
       }
     }
 

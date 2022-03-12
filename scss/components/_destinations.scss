@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 
     .text-img {
       height: 15px;
@@ -53,11 +53,13 @@
         text-align: center;
         justify-content: center;
         align-items: center;
+        font-family: "inter", sans-serif;
       }
       .location {
         display: flex;
         justify-content: center;
         align-items: center;
+        font-weight: 600;
       }
       .description {
         display: flex;
