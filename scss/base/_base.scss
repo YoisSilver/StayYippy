@@ -17,6 +17,7 @@
   --mellow: #f08a8a;
   --black: #222222;
   --navbar-bg: #ffffff;
+  --footer-bg: #f7f7f7;
   --font-family: "Inter", sans-serif;
 }
 // BLACK OPP
@@ -24,6 +25,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  p,
+  li,
+  h4,
+  h6,
+  h1,
+  h2,
+  h3 {
+    cursor: default;
+  }
 }
 
 html {
