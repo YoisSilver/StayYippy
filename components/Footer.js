@@ -34,7 +34,7 @@ export default function Footer() {
                     </ul></div>
                 <div className="group4-logo">
                     <ul className='header'>
-                        <h4>Demo:</h4>
+                        <h4>Contact</h4>
                         <li><a href='https://github.com/YoisSilver'><GitHubIcon className='icon' /></a></li>
                         <li><a href='https://github.com/YoisSilver'><TwitterIcon className='icon' /></a></li>
                         <li><a href='https://github.com/YoisSilver'><InterestsIcon className='icon' /></a></li>

@@ -135,3 +135,13 @@
     }
   }
 }
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  .divider-container {
+    font-size: 12px;
+
+    .list-container {
+      margin: auto auto auto 0.1rem;
+    }
+  }
+}

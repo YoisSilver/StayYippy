@@ -40,3 +40,10 @@ h6 {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  .footer-container {
+    font-size: 12px;
+    padding: 3rem 3rem 1.5rem 3rem;
+  }
+}

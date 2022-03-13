@@ -87,3 +87,12 @@
     }
   }
 }
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  .navbar-container {
+    font-size: 12px;
+    .container {
+      margin: 0 15px 25px 15px;
+    }
+  }
+}

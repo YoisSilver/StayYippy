@@ -76,3 +76,10 @@
     }
   }
 }
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  .desti-container {
+    margin: inherit 0.2rem inherit 0.2rem;
+    font-size: 13px;
+  }
+}
