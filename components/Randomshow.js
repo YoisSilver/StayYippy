@@ -6,7 +6,6 @@ import PaidIcon from '@mui/icons-material/Paid';
 import Button from '@mui/material/Button';
 import FilterVintageOutlinedIcon from '@mui/icons-material/FilterVintageOutlined';
 import AirplaneTicketOutlinedIcon from '@mui/icons-material/AirplaneTicketOutlined';
-import HoverVideoPlayer from 'react-hover-video-player';
 import { Fragment } from 'react';
 
 // import test from "../public/videos/vid1.mp4"
